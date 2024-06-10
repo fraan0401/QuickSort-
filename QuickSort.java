@@ -127,7 +127,7 @@ public class QuickSort { //creamos la clase
         long tiempoFinalConcurrente = tiempoFinConcurrente - tiempoInicioConcurrente;
 
         System.out.println("Array ordenado concurrentemente:");
-        System.out.println(String.format("Tiempo tomado -> %,d", tiempoFinalConcurrente) + " ns);//imprime el metodo con el tiempo de trabajo 
+        System.out.println(String.format("Tiempo tomado -> %,d", tiempoFinalConcurrente) + " ns");//imprime el metodo con el tiempo de trabajo 
     }
 
 }
